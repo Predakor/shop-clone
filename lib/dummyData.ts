@@ -259,3 +259,37 @@ export const dummyProducts: Product[] = [
     ],
   },
 ];
+export const dummyServices = [
+  { name: "Support" },
+  { name: "PC configuration" },
+  { name: "Installment plan" },
+  { name: "Rent equipment" },
+  { name: "Buyout equipment" },
+  { name: "Extended warranty " },
+  { name: "Transport with installment" },
+  { name: "Payments for companies" },
+];
+
+export const dummyNews = [
+  {
+    title: "New AI Breakthrough Unveiled",
+    about:
+      "Researchers have developed a groundbreaking artificial intelligence algorithm that outperforms existing models in image recognition tasks.",
+    link: "/news/1",
+    date: "2024-01-26",
+  },
+  {
+    title: "Latest Smartphone Release Hits the Market",
+    about:
+      "The highly anticipated XYZ smartphone is now available for purchase, boasting a sleek design, powerful hardware, and innovative features.",
+    link: "/news/2",
+    date: "2024-01-27",
+  },
+  {
+    title: "Cybersecurity Firm Discovers Critical Software Vulnerability",
+    about:
+      "A leading cybersecurity company has identified a serious security flaw in a widely used software application, urging users to update to the latest version immediately.",
+    link: "/news/3",
+    date: "2024-01-28",
+  },
+];
