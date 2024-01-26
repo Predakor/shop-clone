@@ -1,9 +1,8 @@
-import Navbar from "@/components/layout/Navbar/Navbar";
+import Header from "@/components/Layout/Header/Header";
+import { ThemeProvider } from "@/components/ThemeProvider/ThemeProvider";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
-import { ThemeProvider } from "@/components/theme-provider/theme-provider";
-import BrowseCategories from "@/components/BrowseCategories/BrowseCategories";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -26,10 +25,7 @@ export default function RootLayout({
           enableSystem
           disableTransitionOnChange
         >
-          <header className="flex flex-col items-center p-2">
-            <Navbar />
-            <BrowseCategories />
-          </header>
+          <Header />
           {children}
           <footer className="p-2">Created By patryk</footer>
         </ThemeProvider>

@@ -12,7 +12,7 @@ import { categories } from "@/lib/dummyData";
 
 function BrowseCategories() {
   return (
-    <nav className="text-">
+    <nav>
       <NavigationMenu>
         <NavigationMenuList>
           {categories.map(({ name, products }) => (

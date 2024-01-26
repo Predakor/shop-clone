@@ -26,7 +26,7 @@ function SearchInput() {
         <SelectTrigger className="w-[100px] border-none">
           <SelectValue placeholder="All" />
         </SelectTrigger>
-        <SelectContent>
+        <SelectContent className="w-[95vw] lg:w-auto">
           <SelectGroup>
             <SelectLabel>Fruits</SelectLabel>
             <SelectItem value="apple">Cars</SelectItem>

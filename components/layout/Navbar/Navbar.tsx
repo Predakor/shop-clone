@@ -1,15 +1,5 @@
-"use client";
-
 import SearchInput from "@/components/SearchInput/SearchInput";
 import { ThemeToggle } from "@/components/ThemeToggle/ThemeToggle";
-import {
-  NavigationMenu,
-  NavigationMenuList,
-  NavigationMenuItem,
-  NavigationMenuTrigger,
-  NavigationMenuContent,
-  NavigationMenuLink,
-} from "@radix-ui/react-navigation-menu";
 import { Phone, ShoppingBag, User } from "lucide-react";
 import Link from "next/link";
 
