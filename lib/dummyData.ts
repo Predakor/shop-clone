@@ -4,34 +4,34 @@ type Category = { name: string; products: Product[] | { name: string }[] };
 
 export const categories: Category[] = [
   {
-    name: "cars",
+    name: "sports",
     products: [
-      { name: "car1" },
-      { name: "car2" },
-      { name: "car3" },
-      { name: "car4" },
+      { name: "football" },
+      { name: "basketball" },
+      { name: "tennis racket" },
+      { name: "golf clubs" },
     ],
   },
   {
-    name: "wheels",
+    name: "appliances",
     products: [
-      { name: "wheel" },
-      { name: "wheel" },
-      { name: "wheel" },
-      { name: "wheel" },
+      { name: "refrigerator" },
+      { name: "washing machine" },
+      { name: "microwave" },
+      { name: "dishwasher" },
     ],
   },
   {
-    name: "engines",
+    name: "gadgets",
     products: [
-      { name: "engines1" },
-      { name: "engines2" },
-      { name: "engines3" },
-      { name: "engines4" },
+      { name: "smartwatch" },
+      { name: "fitness tracker" },
+      { name: "Bluetooth speaker" },
+      { name: "robot vacuum" },
     ],
   },
   {
-    name: "phones",
+    name: "smartphones",
     products: [
       { name: "iPhone 13" },
       { name: "Samsung Galaxy S21" },
@@ -49,7 +49,7 @@ export const categories: Category[] = [
     ],
   },
   {
-    name: "headphones",
+    name: "audio",
     products: [
       { name: "Sony WH-1000XM4" },
       { name: "AirPods Pro" },
@@ -58,12 +58,21 @@ export const categories: Category[] = [
     ],
   },
   {
-    name: "cameras",
+    name: "photography",
     products: [
       { name: "Canon EOS R5" },
       { name: "Sony Alpha 7 III" },
       { name: "Nikon Z6 II" },
       { name: "Fujifilm X-T4" },
+    ],
+  },
+  {
+    name: "outdoor",
+    products: [
+      { name: "tent" },
+      { name: "hiking boots" },
+      { name: "backpack" },
+      { name: "camping stove" },
     ],
   },
 ];
