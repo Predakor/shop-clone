@@ -3,6 +3,7 @@ import { ThemeProvider } from "@/components/ThemeProvider/ThemeProvider";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
+import Footer from "@/components/Layout/Footer/Footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -27,7 +28,7 @@ export default function RootLayout({
         >
           <Header />
           {children}
-          <footer className="p-2">Created By patryk</footer>
+          <Footer />
         </ThemeProvider>
       </body>
     </html>
