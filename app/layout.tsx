@@ -19,7 +19,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className + " flex flex-col gap-4"}>
+      <body
+        className={`${inter.className} m-auto flex flex-col gap-4 overflow-x-clip p-4 lg:max-w-screen-xl`}
+      >
         <ThemeProvider
           attribute="class"
           defaultTheme="system"

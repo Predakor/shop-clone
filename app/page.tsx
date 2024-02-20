@@ -26,7 +26,7 @@ import {
 export default function Page() {
   const news = dummyNews;
   return (
-    <main className="flex flex-col items-center gap-8 overflow-x-hidden px-2 lg:gap-16 lg:px-44">
+    <main className="flex flex-col gap-8 overflow-x-hidden px-2 lg:gap-16">
       <section className="w-full">
         <PromotionsBanner />
       </section>
